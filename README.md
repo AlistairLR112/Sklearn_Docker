@@ -2,6 +2,10 @@
 # Sklearn and Docker! And some Flask
 A match made in heaven
 
+<i>The idea behind Docker is that the developer creates a container with all dependencies that he wants, make sure that everything works and done. The staff responsible for software deployment does not need to know what is inside the container, it just needs to be able to run container on the server. While this feature could be achieved with virtual machines, they ended up coming with much more than necessary, so the VM files are too large and the host system becomes very slow.</i> <br>
+<br>
+<i>On the other hand, docker does not use a full OS, it shares the same host kernel (yes, it needs to run on Linux) but is a completely isolated environment. So run a docker containers is much lighter than run a virtual machine. Docker features do not stop there, it also allows a kind of versioning and has a kind of github for containers, the Docker Hub, where the user can download and use ready images  for various software, such as MySQL, Postgres , LAMP, WordPress, RStudio, among others</i> - <b>Flavio Barros</b>
+
 __NOTE__: The docker image (as a .tar) won't be included as it is over 1GB in size
 
 
