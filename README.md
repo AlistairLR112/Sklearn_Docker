@@ -154,7 +154,7 @@ cat app.py
 
 
 #### Check if the app works
-Open a terminal window and navigate to the directory that you are working from. Then run __python docker/app.py__
+Open a terminal window and navigate to the directory that you are working from. Then run __python app.py__
 
 You should get something like this (while debug mode is on..):
  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
