@@ -27,7 +27,7 @@ def get_prediction():
 
  # Read the serialised model
  print('reading model')
- modelname = 'docker/svm_iris.pkl'
+ modelname = 'svm_iris.pkl'
  print('Loading %s' % modelname)
  loaded_model = pickle.load(open(modelname, 'rb'), encoding='latin1')
 
@@ -43,5 +43,5 @@ def get_prediction():
  return df_with_preds.to_json()
 
 if __name__ == '__main__':
- #app.run(port=5000,host='0.0.0.0')
- app.run(debug=True)
+ app.run(port=5000,host='0.0.0.0')
+ #app.run(debug=True)
